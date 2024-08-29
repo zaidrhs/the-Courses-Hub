@@ -1,0 +1,101 @@
+body {
+    background-color: #e7e3e3; /* Light background color */
+    padding-top: 60px; /* Adjust top padding */
+    color: #343a40; /* Dark text color */
+  }
+  .card {
+    height: 100%;
+    border: 1px solid #9ba2a9;
+    border-radius: 8px;
+    background-color: #495057; /* Card background color */
+    color: #f8f9fa; /* Text color inside the card */
+  }
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .imgsize {
+    width: 100%;
+    height: auto;
+  }
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .card-price {
+    font-size: 18px;
+    color: #28a745; /* Price color */
+    margin-top: 8px;
+  }
+  .card-rating {
+    display: flex;
+    align-items: center;
+    color: #ffc107; /* Rating color */
+    margin-top: 8px;
+  }
+  .card-rating i {
+    font-size: 16px;
+    margin-right: 4px;
+  }
+  .btn-primary {
+    margin-top: auto; /* Always position the button at the bottom */
+    background-color: #28a745; /* Primary button color */
+    border-color: #28a745; /* Button border color */
+  }
+  .btn-primary:hover {
+    background-color: #218838; /* Button color on hover */
+    border-color: #1e7e34; /* Button border color on hover */
+  }
+  .navbar {
+    background-color: #28a745; /* Green header background color */
+  }
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; /* Text color in the header */
+  }
+  .navbar-toggler-icon {
+    color: #ffffff; /* Icon color in the header */
+  }
+  .nav-link {
+    color: #ffffff !important; /* Header links color */
+  }
+  #shopping-cart {
+    display: none;
+  }
+  
+  #shopping-cart.d-none {
+    display: none;
+  }
+  
+  #shopping-cart:not(.d-none) {
+    display: block;
+  }
+#cartModal .modal-body {
+  max-height: 400px;
+  overflow-y: auto;
+}
+.list-group-item{
+  display: flex !important;
+  justify-content: space-between !important;
+
+}
+.btns{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
